@@ -628,15 +628,17 @@ i{
 
     footer .help{
         position: fixed;
-        bottom: 0;
+        bottom: 10%;
     }
 
     /* SQUALO */
     
     footer .help .squalo{
         position: relative;
-        width: 60px;
+        width: 65px;
         max-width: 100%;
+        padding: 10px 0;
+        margin-bottom: 20px;
         background-color: #006aff;
         border-radius: 3px;
         text-align: center;
@@ -644,6 +646,7 @@ i{
     
     footer .help .squalo img{
         width: 50px;
+        max-width: 100%;
     }
 
     footer .help .img-squalo .notifiche{
@@ -661,15 +664,14 @@ i{
     /* FOOTER HELP MESSAGE */
 
     footer .help .message{
-        width: 300px;
-        max-width: 100%;
-        background-color: red;
+        display: none;
+        background-color: white;
         border-radius: 3px;
     }
 
     footer .help .text{
         position: relative;
-        padding: 15px 20px;
+        padding: 10px 15px;
     }
 
     footer .help .message .quadrato{
@@ -679,7 +681,12 @@ i{
         transform: rotate(45deg);
         width: 10px;
         height: 10px;
-        background-color: blue;
+        background-color: white;
+    }
+
+    footer .help:hover .message{
+        display: block;
+        width: 300px;
     }
 
 }
