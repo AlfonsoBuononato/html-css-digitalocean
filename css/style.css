@@ -347,7 +347,9 @@ i{
         font-size: 20px;
         color: #5c6a88;
     }
+
     /* SECTION FOR DEVELOPERS */
+
     section.for-developers{
         text-align: center;
         background-color: #f3f5f9;
@@ -371,7 +373,7 @@ i{
     }
 
     section.for-developers .container .img-developers{
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
 
     section.for-developers .container .img-developers i{
@@ -387,7 +389,6 @@ i{
     section.for-developers .container h4{
         font-size: 22px;
         color: #031c4e;
-        padding-top: 70px;
     }
 
     section.for-developers .container ul{
@@ -665,6 +666,8 @@ i{
 
     footer .help .message{
         display: none;
+        position: absolute;
+        top: 100%;
         background-color: white;
         border-radius: 3px;
     }
@@ -728,8 +731,8 @@ i{
     section.for-developers .container .img-developers i{
         display: block;
         padding: 0 40px;
-        height: 315px;
-        line-height: 315px;
+        height: 250px;
+        line-height: 250px;
         text-align: right;  
         padding-right: 50px;
         font-size: 40px;
@@ -779,8 +782,7 @@ i{
     }
 
     section.team .container ul{
-        margin-top: 80px;
-        margin-bottom: 30px;
+        margin-top: 50px;
     }
     
     section.team .container ul li i{
@@ -817,4 +819,192 @@ i{
     header ul li.btn a:first-child {
         color: #2e87ff;
     }
+
+    /* MAIN */
+
+    /* SECTION REGISTRATION */
+
+    section.registration h1{
+        font-size: 47px;
+        color: white;
+        padding-top: 30px;
+    }
+
+    /* SECTION DIGITAL PARTNERS */
+
+    section.digital-partners{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    section.digital-partners .container h2{
+        padding-bottom: 0;
+    }
+
+    section.digital-partners .container-logo img{
+        width: 100%;
+        height: 170px;
+    }
+
+    section.digital-partners .container a{
+        font-size: 18px;
+    }
+
+    section.digital-partners .container a i{
+        font-size: 10px;
+    }
+
+    /* SECTION CONFIGURATION */
+
+    section.configuration{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    section.configuration .titolo-p h2{
+        font-size: 35px;
+        color: #031c4e;
+        padding-top: 0px;
+    }
+
+    section.configuration .titolo-p p{
+        color: #5c6a88;
+        font-size: 25px;
+        line-height: 35px;
+        font-weight: 500;
+    }
+
+    section.configuration form{
+        margin-left: 0;
+    }
+
+    /* SECTION FOR DEVELOPERS */
+    
+    section.for-developers{
+        padding-top: 70px;
+    }
+
+    section.for-developers .container h2{
+        padding-top: 10px;
+    }
+
+    section.for-developers .container p{
+        font-size: 22px;
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
+    section.for-developers .container ul{
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+    
+    /* SECTION BUSINESS */
+    /* NESSUNA MODIFICA DA EFFETTUARE */
+
+    /* SECTION NATIONAL SERVICE */
+
+    section.national-service td{
+        line-height: 40px;
+        padding: 5px 0;
+        border-bottom: 1px solid white;
+    }
+
+    section.national-service tr td i{
+        color: #52d1e0;
+        font-size: 17px;
+    }
+
+    /* SECTION TEAM */
+
+    section.team{
+        text-align: center;
+        background-color: #f3f5f9;
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+
+    section.team .container .img-developers i{
+        line-height: 475px;
+        display: block;
+        text-align: right;  
+        font-size: 40px;
+        color: #6f7b97;
+    }
+
+    /* SECTION ACCOUNT */
+    /* NESSUNA MODIFICA DA EFFETTUARE */
+
+    /* FOOTER */
+
+    /* FOOTER HELP */
+
+    footer .help{
+        position: fixed;
+        bottom: 10%;
+        right: 0;
+    }
+
+    /* SQUALO */
+    
+    footer .help .squalo{
+        position: relative;
+        width: 65px;
+        max-width: 100%;
+        padding: 10px 0;
+        margin-bottom: 20px;
+        background-color: #006aff;
+        border-radius: 3px;
+        text-align: center;
+    }
+    
+    footer .help .squalo img{
+        width: 50px;
+        max-width: 100%;
+    }
+
+    footer .help .img-squalo .notifiche{
+        position: absolute;
+        bottom: 50%;
+        left: 70%;
+        width: 30px;
+        max-width: 100%;
+        line-height: 25px;
+        background-color: red;
+        border: 5px solid white;
+        border-radius: 50%;
+    }
+    
+    /* FOOTER HELP MESSAGE */
+
+    footer .help .message{
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 100%;
+        background-color: white;
+        border-radius: 3px;
+    }
+
+    footer .help .text{
+        position: relative;
+        padding: 10px 15px;
+    }
+
+    footer .help .message .quadrato{
+        position: absolute;
+        bottom: 20%;
+        left: 98%;
+        transform: rotate(45deg);
+        width: 10px;
+        height: 10px;
+        background-color: white;
+    }
+
+    footer .help:hover .message{
+        display: block;
+        width: 300px;
+    }
+
+    
 }
