@@ -1,4 +1,8 @@
 /*        GENERAL       */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .block{
     display: block;
 }
@@ -155,11 +159,14 @@ i{
 }
 
 /* UTILITIES COLORI */
- .white{
+
+.white{
      background-color: white;
- }
+}
 
-
+.azzurro{
+    color: #006aff;
+}
 
 
 /* MEDIA QUERI SEZIONE XS MOBILE 0px - 767px */
@@ -216,7 +223,18 @@ i{
         padding-left: 5px;
         border: 2px solid #eeeeee;
         border-radius: 3px;
-        color: #7c7c7c;
+        color: #757575;
+        font-size: 18px;
+    }
+    
+    section.registration h1{
+        font-size: 40px;
+        color: white;
+        padding-top: 30px;
+    }
+
+    section.registration .account h3{
+        font-size: 25px;
     }
 
     section.registration .account .relative{
@@ -224,14 +242,11 @@ i{
     }
 
     section.registration .relative a{
-        color: black;
+        color: #626262;
+        font-size: 17px;
+        font-weight: 700;
         margin-top: 10px;
         margin-bottom: 10px;
-    }
-
-    section.registration h5 a{
-        color: #2e87ff;
-        text-decoration: underline;
     }
 
     section.registration .relative img{
@@ -241,23 +256,35 @@ i{
         max-width: 100%;
         transform: translateY(-50%);
     }
-
-    section.registration h1{
-        font-size: 30px;
-        color: white;
+    
+    section.registration p{
+        font-size: 22px;
+        color: #bbcdff;
+    }
+    
+    
+    section.registration h5{
+        font-weight: normal;
     }
 
-    section.registration p{
-        font-size: 1.3rem;
-        color: #bbcdff;
+    section.registration h5 a{
+        color: #2e87ff;
+        text-decoration: underline;
     }
 
     /* SECTION DIGITAL PARTNERS */
+
     section.digital-partners{
         text-align: center;
         background-color: #f3f5f9;
         padding-top: 70px;
         padding-bottom: 70px;
+    }
+
+    section.digital-partners .container h2{
+        color: #6f7b97;
+        font-size: 20px;
+        padding-bottom: 50px;
     }
 
     section.digital-partners .container-logo img{
@@ -281,12 +308,22 @@ i{
         padding-bottom: 70px;
     }
 
+    section.configuration .titolo-p h2{
+        font-size: 40px;
+        color: #031c4e;
+        padding-top: 70px;
+    }
+
     section.configuration .titolo-p p{
+        color: #5c6a88;
         font-size: 25px;
         line-height: 35px;
+        font-weight: 500;
     }
 
     section.configuration form input{
+        font-size: 20px;
+        font-weight: 500;
         height: 50px;
         line-height: 50px;
         width: 100%;
@@ -301,6 +338,15 @@ i{
         padding: 10px 0;
     }
 
+    section.configuration .container h4{
+        color: #031c4e;
+        font-size: 24px;
+    }
+
+    section.configuration .container p{
+        font-size: 20px;
+        color: #5c6a88;
+    }
     /* SECTION FOR DEVELOPERS */
     section.for-developers{
         text-align: center;
@@ -308,9 +354,20 @@ i{
         padding-top: 100px;
     }
 
+    section.for-developers .container h2{
+        font-size: 40px;
+        color: #031c4e;
+        padding-top: 70px;
+    }
+
     section.for-developers .container p{
-        padding-top: 40px;
-        padding-bottom: 100px;
+        text-align: center;
+        color: #5c6a88;
+        font-size: 25px;
+        line-height: 35px;
+        font-weight: 500;
+        padding-top: 100px;
+        padding-bottom: 150px;
     }
 
     section.for-developers .container .img-developers{
@@ -327,6 +384,12 @@ i{
         float: none;
     }
 
+    section.for-developers .container h4{
+        font-size: 22px;
+        color: #031c4e;
+        padding-top: 70px;
+    }
+
     section.for-developers .container ul{
         margin-top: 80px;
         margin-bottom: 30px;
@@ -338,8 +401,285 @@ i{
     }
 
     /* SECTION BUSINESS */
+
     section.business .container h2{
         text-align: center;
+        font-size: 40px;
+        color: #031c4e;
+        padding-top: 70px;
+    }
+
+    section.business .content-business h4{
+        color: #031c4e;
+        font-size: 24px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    section.business .content-business p{
+        font-size: 20px;
+        color: #5c6a88;
+        padding-bottom: 15px;
+    }
+
+    section.business .content-business a{
+        font-size: 17px;
+        color: #006aff;
+    }
+
+    section.business .content-business i{
+        color: #006aff;
+        font-size: 12px;
+    }
+
+    section.business .content-business:last-child{
+        padding-bottom: 100px;
+    }
+
+    /* SECTION NATIONAL SERVICE */
+    
+    section.national-service{
+        background-image: linear-gradient(#0047c5, #001d99);
+        color: #e9eef8;
+    }
+
+    section.national-service h2{
+        font-size: 40px;
+        color: white;
+    }
+
+    section.national-service td{
+        padding: 5px 0;
+        border-bottom: 1px solid white;
+    }
+
+    section.national-service td.border-0{
+        border-bottom: 0px;
+    }
+
+    section.national-service tr td:nth-child(2){
+        color: #bbc6e7;
+    }
+
+    section.national-service tr td:last-child{
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    section.national-service tr td a{
+        color: #52d1e0;
+    }
+
+    section.national-service tr td i{
+        color: #52d1e0;
+        font-size: 12px;
+    }
+
+    /* SECTION TEAM */
+
+    section.team{
+        text-align: center;
+        background-color: #f3f5f9;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    section.team .container h2{
+        font-size: 40px;
+        color: #031c4e;
+    }
+
+    section.team .container p{
+        padding-top: 50px;
+        padding-bottom: 15px;
+        font-size: 25px;
+        color: #5c6a88;
+    }
+
+    section.team .img-developers .team-content h5:nth-child(3){
+        font-size: 19px;
+        font-weight: 600;
+        color: #031c4e;
+    }
+
+    section.team .img-developers .team-content h5:nth-child(4){
+        font-size: 19px;
+        font-weight: 500;
+        color: #031c4e;
+        margin-top: 5px;
+    }
+
+    section.team .container .img-developers{
+        width: 70%;
+        padding-bottom: 30px;
+    }
+
+    section.team .container .img-developers i{
+        display: none;
+    }
+
+    section.team .container .img-developers .team-content{
+        background-color: white;
+    }
+
+    section.team img{
+        max-width: 100%;
+    }
+    
+    section.team .team-content h5 a{
+        font-size: 20px;
+        color: #006aff;
+    }
+
+    section.team .img-developers .team-content h5 a i{
+        color: #006aff;
+        display: inline-block;
+        line-height: 1;
+        font-size: 15px;
+        padding-right: 0;
+        padding-left: 10px;
+    }
+    
+    section.team .container ul{
+        margin-top: 50px;
+    }
+    
+    section.team .container ul li i{
+        color: #006aff;
+        border-color: #006aff;
+    }
+
+    /* SECTION ACCOUNT */
+
+    section.account{
+        text-align: center;
+        background-image: linear-gradient(#0042bb, #001e9a);
+        color: white;
+    }
+
+    section.account h2{
+        font-size: 40px;
+    }
+
+    section.account a{
+        display: inline-block;
+        width: auto;
+        margin-top: 30px;
+        padding: 15px 15px;
+        background-color: white;
+        color: #2e87ff;
+        border-radius: 7px;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    /* FOOTER */
+
+    footer{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #031c4e;
+    }
+
+    footer .container .copyright li{
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    footer .container .copyright li a i{
+        color: #7a859d;
+    }
+
+    footer li{
+        display: block;
+    }
+
+    footer .copyright.container h5:nth-child(2){
+        font-size: 16px;
+        color: #8892a7;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    footer .copyright.container h5:nth-child(3){
+        color: #5a6887;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    footer .margin h4{
+        font-size: 24px;
+        color: white;
+        padding-top: 30px;
+    }
+
+    footer .margin li{
+        padding: 10px 0;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    footer .margin li a{
+        color: #a6adbd;
+    }
+
+    /* FOOTER HELP */
+
+    footer .help{
+        position: fixed;
+        bottom: 0;
+    }
+
+    /* SQUALO */
+    
+    footer .help .squalo{
+        position: relative;
+        width: 60px;
+        max-width: 100%;
+        background-color: #006aff;
+        border-radius: 3px;
+        text-align: center;
+    }
+    
+    footer .help .squalo img{
+        width: 50px;
+    }
+
+    footer .help .img-squalo .notifiche{
+        position: absolute;
+        bottom: 50%;
+        left: 70%;
+        width: 30px;
+        max-width: 100%;
+        line-height: 25px;
+        background-color: red;
+        border: 5px solid white;
+        border-radius: 50%;
+    }
+    
+    /* FOOTER HELP MESSAGE */
+
+    footer .help .message{
+        width: 300px;
+        max-width: 100%;
+        background-color: red;
+        border-radius: 3px;
+    }
+
+    footer .help .text{
+        position: relative;
+        padding: 15px 20px;
+    }
+
+    footer .help .message .quadrato{
+        position: absolute;
+        bottom: 20%;
+        left: 98%;
+        transform: rotate(45deg);
+        width: 10px;
+        height: 10px;
+        background-color: blue;
     }
 
 }
@@ -396,6 +736,49 @@ i{
     section.for-developers .container .img-developers i:hover{
         color: #031c4e;
         cursor: pointer;
+    }
+
+    /* SECTION BUSINESS */
+    /* NULLA DA AGGIUNGERE PER ADESSO */
+
+    /* SECTION NATIONAL SERVICE */
+    /* NULLA DA AGGIUNGERE PER ADESSO */
+
+    /* SECTION TEAM */
+
+    section.team .container .img-developers{
+        height: 390px;
+    }
+
+    section.team .container .img-developers img{
+        width: 100%;
+    }
+
+    section.team .container .img-developers i{
+        line-height: 390px;
+        display: block;
+        text-align: right;  
+        font-size: 40px;
+        color: #6f7b97;
+    }
+
+    section.team .container .img-developers .fa-chevron-right{
+        text-align: left;
+    }
+
+    section.team .container .img-developers .hover:hover{
+        color: #031c4e;
+        cursor: pointer;
+    }
+
+    section.team .container ul{
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+    
+    section.team .container ul li i{
+        color: #006aff;
+        border-color: #006aff;
     }
 }
 
